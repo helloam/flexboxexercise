@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /*this is to center the objects so they are not all to the left of the page*/
+
+}
+/*h1 is for the "Life in the Wild"*/
+h1 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 400px; /*this changes how long the pink border line is*/
+    text-align: center;
+}
+
+img {
+    width: 450px;
+    height: 300px
+    margin: 10px;
+}
