@@ -12,10 +12,17 @@ h1 {
     border-right: 2px solid pink;
     width: 400px; /*this changes how long the pink border line is*/
     text-align: center;
+    box-shadow: 4px 4px 5px lightgrey;
+    margin-top: 10px; /*put a bit of a buffer between the header and photos*/
 }
 
 img {
     width: 450px;
     height: 300px
     margin: 10px;
+    transition: all 1%;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
